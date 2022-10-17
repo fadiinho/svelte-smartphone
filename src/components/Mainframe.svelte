@@ -1,11 +1,11 @@
 <script lang="ts">
   import NotificationArea from "./NotificationArea.svelte";
   import HomeButtons from "./HomeButtons.svelte";
-  import Main from "./Main.svelte";
+  import Home from "./Home.svelte";
 </script>
 
 <div id="mainframe" class="flex flex-col w-full h-full bg-[url('/src/assets/wallpaper3.jpg')] bg-no-repeat bg-cover">
   <NotificationArea />
-  <Main />
+  <Home />
   <HomeButtons />
 </div>
